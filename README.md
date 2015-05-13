@@ -14,4 +14,7 @@ Avata 工作室 WEB 开发规则
 - 编码utf-8 <meta charset="utf-8">
 
 2 资源目录放置及命名
-> css        /project/项目名/css
+      css             /project/项目名/css
+      js                /project/项目名/js
+      widget                /project/项目名/widget               #UI include文件 例如menu.asp nav.asp 
+      interface               /project/项目名/interface              #接口文件
