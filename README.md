@@ -14,16 +14,3 @@ Avata 工作室 WEB 开发规则
 - 编码utf-8 <meta charset="utf-8">
 
 2 资源目录放置及命名
-- css        /project/项目名/css
-- js         /project/项目名/js
-- widget     /project/项目名/widget        UI include文件 例如menu.asp nav.asp 
-- interface  /project/项目名/interface     接口文件
-- admin      /project/项目名/admin         后台文件
-
-  公共文件可以为 base.js base.css config.inc.asp
-  指定页面的文件可以为 app.css app.js 也可以和文件名相同 便于查找  形如
-  
-      <link href="css/base.css?V1.0" rel="stylesheet" type="text/css">
-      <link href="css/index.css?V1.1" rel="stylesheet" type="text/css">
-      <script src="js/base.js?v1.0"></script>
-      <script src="js/app.js?v1.1"></script>
